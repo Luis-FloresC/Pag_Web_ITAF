@@ -15,7 +15,7 @@
 <body>
     <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand active" href="./index.html">
                 <img src="src/img/logo.png" alt="itaf" width="100" height="auto" />
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -25,10 +25,13 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Galeria</a>
+                        <a class="nav-link" href="./Vistas/historia.html">Historia</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Cursos</a>
+                        <a class="nav-link" aria-current="page" href="#">Galeria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Vistas/cursos.html">Cursos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contacto</a>
@@ -107,17 +110,50 @@
 
 
     </div>
-<br>
-<br>
+    <br>
+    <div class="row justify-content-center">
+        <div class="col-4">
+            <h3>Nuestra Ubicación</h3>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3873.4057387325925!2d-86.5564110861462!3d13.874670898174728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f6e155661db8c5b%3A0x5730b4b9637c82c8!2sITAF!5e0!3m2!1ses!2shn!4v1662693353193!5m2!1ses!2shn"
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="col-4">
+            <h3>¡Inicia la prematricula!</h3>
+            <div class="row">
+                <div class="col-sm-6">
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Septimo Grado</h5>
+                      <p class="card-text">Registre a su alumno el curso de septimo grado...</p>
+                      <a href="#" class="btn btn-primary">Ver Clases</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Special title treatment</h5>
+                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+
+    <br>
     <div class="card text-center">
 
         <div class="card-body">
-          <h5 class="card-title">Instituto Técnico Alejandro Flores &copy; 2022</h5>
-          <p class="card-text">El Paraiso, El Paraiso Tel. 2793-4123.</p>
-          
+            <h5 class="card-title">Instituto Técnico Alejandro Flores &copy; 2022</h5>
+            <p class="card-text">El Paraiso, El Paraiso Tel. 2793-4123.</p>
+
         </div>
-    
-      </div>
+
+    </div>
     <script src="src/js/bootstrap.js"></script>
     <script src="src/js/bootstrap.min.js"></script>
     <script src="src/js/bootstrap.min.js.map"></script>
